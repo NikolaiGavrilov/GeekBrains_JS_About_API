@@ -1,0 +1,97 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-and-info {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(56, 12, 179, 0.65);
+    background-clip: border-box;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.image {
+    margin: 1%;
+    max-width: 97%;
+    border: 1px solid #e5e7eb;
+}
+
+.text-description {
+    color: white;
+}
+
+.likes-count {
+    font-size: 20px;
+    color: white;
+}
+
+.like-button {
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #0a53be;
+    background-color: #0a58ca;
+    color: #fff;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+    transition: all 0.15s ease-in-out;
+}
+
+.like-button:hover {
+    background-color: #0b5ed7;
+    border-color: #0d6efd;
+
+}
+
+.like-button:active {
+    color: red;
+    background-color: #0b5ed7;
+    border-color: #0d6efd;
+  
+}
+
+.previous-btn {
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: none;
+    background-color: darkgreen;
+    color: #fff;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+    transition: all 0.15s ease-in-out;
+}
+
+.previous-btn:hover {
+    background-color: green;
+}
+
+.previous-btn:active {
+    background-color: green;
+    color: red;
+}
+
+.next-btn {
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    border-color: none;
+    background-color: darkgreen;
+    color: #fff;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+    transition: all 0.15s ease-in-out;
+}
+
+.next-btn:hover {
+    background-color: green;
+}
+
+.next-btn:active {
+    background-color: green;
+    color: red;
+}
